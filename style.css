@@ -1,0 +1,83 @@
+body {
+  font-family: Montserrat;
+  color: #303030;
+}
+.masterdiv{
+    display: flex;
+  overflow: hidden;
+  height:100vh;
+}
+
+.navitem {
+  cursor: pointer;
+  list-style-type: none;
+    padding-top: 2em;
+}
+
+.navbar {
+  flex-basis: 15%;
+  display: inline-block;
+}
+article{
+    overflow-y:scroll;
+
+}
+.art{
+  flex-basis: 80%;
+  margin-left: 5%;
+  width:80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+}
+.ill{
+  display: inline-block;
+  width: 20%;
+}
+
+li {
+  padding-top: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body {
+  background-color: #fafafa;
+}
+.index{
+  align-self: flex-start;
+  display:inline-block;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: Lato;
+  margin-bottom: .1em;
+}
+h1{
+  font-weight: 500;
+  font-size: 2.5em;
+}
+h2{
+  flex-basis: 100%;
+}
+h6{
+  font-size: 1.25em;
+  font-weight: 550;
+  margin-bottom: 1em;
+}
+hr{
+  width: 100%;
+}
+input {
+  padding-right: 1em;
+  background-color: #fafafa;
+  border-radius: 4px;
+  border-style: solid;
+}
+footer{
+  margin-top:2em;
+}
