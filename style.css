@@ -81,3 +81,26 @@ input {
 footer{
   margin-top:2em;
 }
+@media (max-width: 1000px){
+  .masterdiv{
+    overflow-y:scroll;
+  }
+
+  .navbar{
+     flex-basis:100%;
+    display: block;
+    flex-direction: row;
+  }
+  ul{
+    flex-basis: 100%;
+    display: block;
+    flex-direction: row;
+    overflow-x: scroll;
+  }
+  .ill{
+    width:100%;
+  }
+  .art{
+    flex-basis: 100%;
+  }
+}
